@@ -1,0 +1,18 @@
+
+<h1>Previous Notes</h1>
+
+<ul>
+<% notes.forEach(function(note){ %>
+    <li>
+    <div>
+
+        <b>Name:</b> <%= note.name %> </br>
+        <b>Topic:</b> <%= note.topic %></br>
+        <b>Summary:</b> <%= note.summary %></br>
+        <b>Description:</b> <%= note.description %>
+
+    </div>
+    </li>
+<% })%>
+
+</ul>
